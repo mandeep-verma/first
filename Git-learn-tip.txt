@@ -66,7 +66,7 @@ first add then commit the file
 
  syntax ->   git commit -m "some message or change kiya h us ka name "
 
-  EX ->   git coomit -m "index file add ki"
+  EX ->   git commit -m "index file add ki"
 
   -------------  Push command ----------
 
@@ -78,3 +78,34 @@ first add then commit the file
 
   syntax ->  git push origin main      
 
+
+
+  -------------  int command ----------
+
+      ue tb us kr the h jb hm starting me project local pr create krte h or baad me git me push krna ho
+
+      init => used to create a new git repo   (new project ke ander git se live kr ge tb us kre h first time ke liye)
+
+
+
+        1. git init 
+
+        2. git remote add origin  <- link ->   
+
+        3. git remote -v  ( to verify remote)
+
+        4. git branch  (to check branch)
+
+        5. git branch -M main   ( to rename branch )
+
+        6. git push origin main 
+
+
+
+
+  -------------  Work flow   ----------
+
+local git   =>   githup  rep -> clone -> chnages -> add -> commit -> push 
+
+
+  -------------  Git Branches  ----------
