@@ -1,0 +1,80 @@
+
+------------ Git Bash terminal pr ye command run krnii h -----------------------------
+  Project ke folder pr ja ke right click kr ke open with git bash krna h us me run krnii h ye sarri command
+
+  ------------------------------------------------------------------------------------------
+
+
+live to local project me setup kr ne ke liye 
+
+-> clone     ( clone kmaad live se git ka code apne code me setup krne h )
+
+  syntax ->   git clone (git hum project ka link)
+  EX ->    git clone https://github.com/mandeep-verma/first.git
+
+
+  ---------------------------------
+
+  Check the all file in the project command
+
+  	-> ls
+  	-> dir
+  
+    ---------------------------------
+
+-> status  (display the state of the code)
+
+  syntax ->  git status
+
+
+---------------------------------
+ Data ko cahnge kr ne ke baad (vs code me ) agr live krna h to 2 command lgi gi 
+
+ 1. add
+ 2. commit
+
+ ---------- GIt me 4 trh ke method hote h -------
+
+ 1. untracked => ( new files that git doesn't track  ) ( jo file hm vs me new creat kr te h or live pr vo file na ho to tb aata h ye message)
+
+ 2. modified =>  ( changed )  ( is me data change kr dete h hm , pr vo data live me change na h to use krte h )
+
+ 3. staged  =>   ( file is ready to be committed )  (jb hm add kr te h tb file stage ho jaati h , pr hm commit nhi krte tb use krte h )
+
+ 4. unmodified  =>  (unchanged) (no change in the file)
+
+
+ -----------------------   Add  & commit -----------------
+
+first add then commit the file 
+
+ 1. add => adds new or changed files in your workig directory to the git staging area.
+
+  syntax ->   git add file name 
+
+  EX ->   git add index.html
+          git add readme.md
+
+ -> all file ko add krna h to 
+ 
+
+            git add .         
+
+
+ 2.  commit => it is the record of changes   (ye local pr save kr de ga pr live pr nhi hoga , live e liye push command run krnii pde gi)
+ 
+
+ syntax ->   git commit -m "some message or change kiya h us ka name "
+
+  EX ->   git coomit -m "index file add ki"
+
+  -------------  Push command ----------
+
+
+  1. push => (upload local repo content to remote repo)   (local ke sara file ke change live pr krna , ya sari file add krna live pr  )
+
+      local repo -> its mean local system 
+      remot repo > its mean live stystem
+
+  syntax ->  git push origin main      
+
