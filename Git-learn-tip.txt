@@ -109,3 +109,55 @@ local git   =>   githup  rep -> clone -> chnages -> add -> commit -> push
 
 
   -------------  Git Branches  ----------
+
+     git branch    ( to check branch )
+
+     git branch -M main ( to rename branch )
+
+     git checkout    <- branch name ->     ( to navigate )   ( 1 baranch se dusre brach me jaana )     ( swith the bracch)
+
+     git checkout -b  <- new brach name ->    ( to create new branch )   
+
+     git branch -d <- branch name ->  (to delete branch)
+
+
+
+  -------------  Merging code  ----------
+
+1 first way ->
+
+  git diff <- branch name  ->      ( to compare commits , branches,files & more )
+
+  git merge < - branch name  ->      (to merge 2 branches)
+
+
+2 second way ->
+
+  create a PR     (  Pull request )  ( it lets you tell others about changes you've pushed to a branch in a repository on GitHub.)
+
+  remote ke change local pr laane ke liye pull command use kre ge  (used to fetch and download content from a remote repo and immediately update the local repo to match that content )
+
+      git pull origin main
+
+    -------------  Resolving  Merge conflicts  ----------
+    
+    an event that takes place when git is uable to automatically resolve differences in code between two commits  ( same file me same line pr change ho tb us krte h ye )
+
+    --------------- undoing chnages  ----------
+
+    1. stage chnages    (add ho chyke h pr commit nhi hye )
+
+            git reset <- file name->
+            git reset
+
+    2. commited changes (for one commit)
+
+      git reset HEAD~1
+
+
+    
+    3. commited changes (for many commits)
+
+    git reset <- commit hash ->
+
+    git reset --hard  <- commit hash -> 
