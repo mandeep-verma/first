@@ -161,3 +161,8 @@ local git   =>   githup  rep -> clone -> chnages -> add -> commit -> push
     git reset <- commit hash ->
 
     git reset --hard  <- commit hash -> 
+
+
+
+
+alll pushh
